@@ -49,57 +49,59 @@ export default function ClientExperiencePage() {
             <tbody>
 
               <tr className="border-t">
-                <td className="p-4">
-                  Radiance MedSpa & Wellness SA
-                </td>
-
-                <td className="p-4">
-                  @radiancemedspasa
-                </td>
-
-                <td className="p-4">
-                  Medical Spa & Wellness
-                </td>
-
-                <td className="p-4">
-                  2025 – Present
-                </td>
+                <td className="p-4">Radiance MedSpa & Wellness SA</td>
+                <td className="p-4">@radiancemedspasa</td>
+                <td className="p-4">Medical Spa & Wellness</td>
+                <td className="p-4">2025 – Present</td>
               </tr>
 
               <tr className="border-t">
-                <td className="p-4">
-                  HerSpace Mental Wellness
-                </td>
-
-                <td className="p-4">
-                  @herspace.satx
-                </td>
-
-                <td className="p-4">
-                  Mental Health Services
-                </td>
-
-                <td className="p-4">
-                  2025 – Present
-                </td>
+                <td className="p-4">HerSpace Mental Wellness</td>
+                <td className="p-4">@herspace.satx</td>
+                <td className="p-4">Mental Health Services</td>
+                <td className="p-4">2025 – Present</td>
               </tr>
 
               <tr className="border-t">
-                <td className="p-4">
-                  Twinkle Healthcare
-                </td>
+                <td className="p-4">Twinkle Healthcare</td>
+                <td className="p-4">@twinklehealthcare</td>
+                <td className="p-4">Healthcare Services</td>
+                <td className="p-4">2025 – Present</td>
+              </tr>
 
-                <td className="p-4">
-                  @twinklehealthcare
-                </td>
+              <tr className="border-t">
+                <td className="p-4">JC Thistle</td>
+                <td className="p-4">@jcthistle</td>
+                <td className="p-4">Beverage & Alcohol Services</td>
+                <td className="p-4">2022 – Present</td>
+              </tr>
 
-                <td className="p-4">
-                  Healthcare Services
-                </td>
+              <tr className="border-t">
+                <td className="p-4">Iperstock Investment Management</td>
+                <td className="p-4">@iperstockinvestmentmanagement</td>
+                <td className="p-4">Finance Services</td>
+                <td className="p-4">2022 – Present</td>
+              </tr>
 
-                <td className="p-4">
-                  2025 – Present
-                </td>
+              <tr className="border-t">
+                <td className="p-4">Dakodi Vogue</td>
+                <td className="p-4">@dakodivogue_woman</td>
+                <td className="p-4">Fashion Services</td>
+                <td className="p-4">2024 – Present</td>
+              </tr>
+
+              <tr className="border-t">
+                <td className="p-4">Stay Offtrack</td>
+                <td className="p-4">@stayofftrackhq</td>
+                <td className="p-4">Cloth Branding Services</td>
+                <td className="p-4">2025 – Present</td>
+              </tr>
+
+              <tr className="border-t">
+                <td className="p-4">Gidanka</td>
+                <td className="p-4">@gidan_ka</td>
+                <td className="p-4">Real Estate Services</td>
+                <td className="p-4">2021 – 2023</td>
               </tr>
 
             </tbody>
