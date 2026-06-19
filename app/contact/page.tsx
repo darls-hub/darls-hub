@@ -20,7 +20,7 @@ export default function ContactPage() {
             <p>
               Email:
               <br />
-              darlingtonawagu@gmail.com
+              <a href="mailto:darlingtonawagu@gmail.com">darlingtonawagu@gmail.com</a>
             </p>
 
             <p>
@@ -32,13 +32,13 @@ export default function ContactPage() {
             <p>
               Instagram:
               <br />
-              @darls_official
+              <a href="https://instagram.com/darls_official">@darls_official</a>
             </p>
 
             <p>
               LinkedIn:
               <br />
-              https://www.linkedin.com/in/darlington-awagu-25219797
+              <a href="https://www.linkedin.com/in/darlington-awagu-25219797">darlington-awagu</a>
             </p>
 
           </div>

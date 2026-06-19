@@ -1,4 +1,3 @@
-import { Profilepng } from "@/assets";
 import Footer from "../component/Footer";
 import Navbar from "../component/Navbar";
 
@@ -8,68 +7,112 @@ export default function AboutPage() {
     <>
       <Navbar />
 
-      <section className="pt-40 pb-20">
+      <section className="container-custom py-20">
 
-        <div className="max-w-6xl mx-auto px-6">
+        <h1 className="text-5xl font-bold">
+          About Me
+        </h1>
 
-          <h1 className="text-5xl font-bold">
-            About Me
-          </h1>
+        <p className="mt-8 text-lg text-gray-600 leading-relaxed max-w-4xl">
+          Hi, I'm Darlington Awagu, founder of Darls Hub.
 
-          <div className="grid md:grid-cols-2 gap-12 mt-16">
+          I'm a Graphic Designer passionate about helping businesses
+          communicate their message through compelling visual design.
 
-            <img
-              src={Profilepng.src}
-              alt="Darlington"
-              className="rounded-3xl"
-            />
+          My work combines creativity, branding, and marketing strategy
+          to create visuals that not only look great but also support
+          business growth and audience engagement.
+        </p>
 
-            <div>
+      </section>
 
-              <h2 className="text-3xl font-semibold">
-                Darlington Awagu
-              </h2>
+      <section className="container-custom py-12">
 
-              <p className="mt-6 text-lg text-gray-600 leading-relaxed">
-                I'm a graphic designer specializing in healthcare,
-                wellness, mental health and lifestyle brands.
-                My work focuses on creating visuals that drive
-                engagement, increase trust and strengthen brand identity.
-              </p>
+        <h2 className="text-4xl font-bold">
+          Services
+        </h2>
 
-              <div className="mt-10">
+        <div className="grid md:grid-cols-2 gap-8 mt-10">
 
-                <h3 className="font-bold text-2xl mb-4">
-                  Skills
-                </h3>
+          <div className="border rounded-3xl p-8">
+            <h3 className="text-2xl font-bold">
+              Social Media Design
+            </h3>
 
-                <div className="flex flex-wrap gap-3">
-
-                  {[
-                    "Social Media Design",
-                    "Brand Identity",
-                    "Print Design",
-                    "Banner Design",
-                    "Marketing Design",
-                    "Adobe Photoshop",
-                    "Adobe Illustrator",
-                    "Canva"
-                  ].map((skill) => (
-                    <span
-                      key={skill}
-                      className="bg-gray-100 px-4 py-2 rounded-full"
-                    >
-                      {skill}
-                    </span>
-                  ))}
-
-                </div>
-
-              </div>
-
-            </div>
-
+            <ul className="mt-4 space-y-2">
+              <li>Instagram Posts</li>
+              <li>Facebook Graphics</li>
+              <li>Story Designs</li>
+              <li>Carousel Designs</li>
+            </ul>
           </div>
+
+          <div className="border rounded-3xl p-8">
+            <h3 className="text-2xl font-bold">
+              Marketing & Promotional Design
+            </h3>
+
+            <ul className="mt-4 space-y-2">
+              <li>Promotional Campaigns</li>
+              <li>Advertisement Graphics</li>
+              <li>Event Marketing Materials</li>
+              <li>Awareness Campaigns</li>
+            </ul>
+          </div>
+
+          <div className="border rounded-3xl p-8">
+            <h3 className="text-2xl font-bold">
+              Print Design
+            </h3>
+
+            <ul className="mt-4 space-y-2">
+              <li>Flyers</li>
+              <li>Posters</li>
+              <li>Roll-Up Banners</li>
+              <li>Brochures</li>
+            </ul>
+          </div>
+
+          <div className="border rounded-3xl p-8">
+            <h3 className="text-2xl font-bold">
+              Branding & Visual Identity
+            </h3>
+
+            <ul className="mt-4 space-y-2">
+              <li>Brand Assets</li>
+              <li>Marketing Collateral</li>
+              <li>Promotional Materials</li>
+              <li>Visual Content Creation</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section className="container-custom py-12">
+
+        <h2 className="text-4xl font-bold">
+          Skills
+        </h2>
+
+        <div className="flex flex-wrap gap-4 mt-8">
+
+          {[
+            "Adobe Photoshop",
+            "Adobe Illustrator",
+            "Canva",
+            "Marketing Design",
+            "Print Design",
+            "Brand Identity",
+          ].map((skill) => (
+            <span
+              key={skill}
+              className="bg-gray-100 px-5 py-3 rounded-full"
+            >
+              {skill}
+            </span>
+          ))}
 
         </div>
 
